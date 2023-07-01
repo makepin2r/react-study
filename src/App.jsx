@@ -45,7 +45,7 @@ const App = () => {
       </div>
       <ul>
         {results.map((result, idx) => {
-          return <li key={idx}>{result}</li>
+          return <li key={idx} dangerouslySetInnerHTML={{__html: result}}></li>
         })}
       </ul>
     </>
