@@ -10,6 +10,5 @@ const kakao = axios.create({
 
 // 검색 api
 export const search = (params) => {
-    return kakao.get("/v2/search/web", {params});
+    return kakao.get("/v2/search/web", { params });
 };
-
