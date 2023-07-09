@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import GlobalStyle from './assets/GlobalStyle'
+import GlobalStyle from './GlobalStyle'
+import Home from "./components/pages/Home";
 import './App.css'
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <GlobalStyle/>
-      <div></div>
+      <Home/>
     </>
   )
 }
